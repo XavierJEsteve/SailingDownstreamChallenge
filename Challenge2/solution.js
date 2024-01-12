@@ -65,7 +65,6 @@ function validateInputLength(input) {
     );
 }
 
-// typecheck input arrays (extra sauce) 
 function validateInputData(input) {
     return (
         Array.isArray(input) && 
@@ -73,6 +72,7 @@ function validateInputData(input) {
     );
 }
 
+// typecheck multiple array (extra sauce) 
 function validateMults(mults) {
    return (
         Array.isArray(mults) && 
